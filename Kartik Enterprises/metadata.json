@@ -1,0 +1,6 @@
+{
+  "name": "Kartik Enterprises - Luxury Safety Studio",
+  "description": "Mumbai's premier luxury safety solutions: invisible grills, pleated mosquito nets, bird protection nets, designer window blinds, and accordion doors for high-rises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

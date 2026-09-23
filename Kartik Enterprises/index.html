@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartik Enterprises - Luxury Safety Studio</title>
+    <meta name="description" content="Mumbai's premier luxury safety solutions: invisible grills, pleated mosquito nets, bird protection nets, designer window blinds, and accordion doors for high-rises." />
+    <meta property="og:title" content="Kartik Enterprises - Luxury Safety Studio" />
+    <meta property="og:description" content="Mumbai's premier luxury safety solutions: invisible grills, pleated mosquito nets, bird protection nets, designer window blinds, and accordion doors for high-rises." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/bundle.js"></script>
+    <script>
+      (function(){
+        function m(a){
+          var h=a.getAttribute("href");
+          if(!h)return;
+          try{
+            var u=new URL(h,document.baseURI);
+            if((u.protocol==="http:"||u.protocol==="https:")&&u.host!==location.host){
+              a.target="_blank";
+              a.rel="noopener noreferrer";
+            }
+          }catch(e){}
+        }
+        function s(){document.querySelectorAll("a[href]").forEach(m);}
+        if(document.readyState!=="loading"){s();}else{document.addEventListener("DOMContentLoaded",s);}
+        document.addEventListener("click",function(e){var a=e.target&&e.target.closest&&e.target.closest("a[href]");if(a){m(a);}},true);
+      })();
+    </script>
+  </body>
+</html>
+
